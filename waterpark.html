@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+ 
+    <style>
+      /* 
+    I have loaded a sample font as an example. Replace the 
+    title font and the content font with something that you have
+    picked.
+
+    TODO: if you use google fonts do htis
+    if you use fontspace/fontsquirrel
+
+    move this to github repo
+  */
+   
+   /* 
+    supported formats: "woff", "woff2", "truetype", "opentype",   "embedded-opentype", and "svg" 
+
+    truetype = ttf
+    opentype = otf
+  */
+ @font-face {
+  font-family: "custom title font";
+  src: url("./test_font.ttf") format("truetype");
+}
+
+ @font-face {
+  font-family: "custom content font";
+  src: url("./test_font.ttf") format("truetype");
+}
+
+.title {
+  font-family: "custom title font";
+}
+
+.content {
+  font-family: "custom content font";
+}
+
+    </style>
+  </head>
+  <body>
+    <h2 class="title">Grand opening of new waterpark!</h2>
+    <div class="content">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+  </body>
+</html>
