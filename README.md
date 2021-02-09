@@ -1,1 +1,4 @@
-###CSCI E-39: Typography Exercise
+## CSCI E-39: Typography Exercise
+
+### Exercise
+
